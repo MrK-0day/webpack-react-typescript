@@ -1,0 +1,22 @@
+{
+  "extends": ["tslint:recommended", "tslint-react"],
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**/*.ts"
+    ]
+  },
+  "rules": {
+    "no-console": false,
+    "ordered-imports": false,
+    "interface-name": false,
+    "object-literal-sort-keys": false,
+    "jsx-no-lambda": false,
+    "jsx-no-bind": false,
+    "variable-name": false,
+    "prefer-const": false,
+    "quotemark": false,
+    "semicolon": false,
+    "trailing-comma": false,
+    "space-before-function-paren": false
+  }
+}
